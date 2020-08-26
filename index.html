@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>RESUME COLLECTION FORM</title>
+</head>
+
+<body>
+  <h1><em><strong>RESUME COLLECTION FORM</strong></em></h1>
+  <hr size="3" />
+  <h2><strong>SUBMIT A RESUME</strong></h2>
+  <hr size="2" />
+  <form action="mailto:riyaa7vermaa@gmail.com " method="post" enctype="text/plain">
+    <fieldset>
+      <legend>
+        FULL NAME:
+      </legend>
+    <label for="FULL NAME">FIRST NAME:</label>
+    <input type="text" name="FIRST NAME" value="" required />
+    <label>LAST NAME:</label>
+    <input type="text" name="LAST NAME" value="" required /><br /><br />
+  </fieldset><br /><br />
+  <label for="photogragh">Upload Your Photogragh:</label>
+        <input type="file" /><br /><br />
+
+  <fieldset>
+    <legend>
+      ADDRESS:
+    </legend>
+    <label for="ADDRESS">ADDRESS:</label>
+    <input type="text" name="ADDRESS" value="" required placeholder="Street Address" /><br /><br />
+    <input type="text" name="ADDRESS" value="" required placeholder="Street Address Line 2"  /><br /><br />
+    <input type="text" name="ADDRESS" value="" required placeholder="city" />
+    <input type="text" name="ADDRESS" value="" required placeholder="state" /><br /><br />
+    <input type="text" name="ADDRESS" value="" required placeholder="Postal/Zip Code" />
+<label for="Address">Country:</label>
+<select id="country" name="ADDRESS">
+  <option value="Please Select">
+    Please select
+  </option>
+  <option value ="India">India
+  </option>
+  <option value="Nepal">
+    Nepal
+  </option>
+  <option value="SriLanka">
+    SriLanka
+  </option>
+  <option value="Bhutan">
+    Bhutan
+  </option>
+  <option value="Bangladesh">
+    Bangladesh
+  </option>
+</select>
+</fieldset><br />
+    <label>GENDER:</label><br />
+    <input type="radio" id="male" name="gender" value="male" />
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br /><br />
+<label for="PHONE NUMBER">PHONE NUMBER:</label>
+<input type="tel"id="phone number" name="phone" placeholder="123-45-078" pattern="{[0-9]{3}-[0-9]{2}-[0-9]{3}}" /><br /><br />
+<label for="Email">EMAIL:</label>
+<input type="email" name="Email"value="eg:myname@gmail.com"required /><br /><br />
+<label for="AREAS OF INTEREST">Areas Of Interest</label><br />
+<input type ="checkbox" id="Areas of Interest" name="Areas of Interest" value="Administrative" />
+<label for="Areas of Interest">Administrative</label><br />
+<input type="checkbox" id="Areas of Interest" name="Areas of Interest" value="Human Resources" />
+<label for="Areas of Interst:">Human Resources</label><br />
+<input type="checkbox" id="Areas of Interest" name="Areas of Interest" value="Sales" />
+<label for="Areas of Interest">Sales</label><br />
+<input type="checkbox" id="Areas of Interest" name="Areas of interest" value="Account Manager" />
+<label for="Areas of Interest">Account Manager</label><br />
+<input type="Checkbox" id="Areas of Interest" name="Areas of interest" value="Performance coach" />
+<label for="Areas of Interest">Performance coach</label><br /><br />
+<textarea name ="Skill level:" rows="10" cols="30">Skill level:</textarea><br /><br />
+<textarea name="Cover Letter:" rows="10"cols="30">Cover Letter:</textarea><br /><br />
+<label for="Resume">Resume: </label>
+<input type="file" /><br /><br />
+<input type="submit" />
+  </form>
+</body>
+
+</html>
