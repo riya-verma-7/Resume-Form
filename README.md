@@ -1,1 +1,1 @@
-THis is a Resume collection form built on pure html . 
+This is a Resume collection form built on pure html . 
